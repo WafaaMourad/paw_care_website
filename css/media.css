@@ -1,0 +1,831 @@
+/* =========================================================
+   PAWS N' PLAY - RESPONSIVE DESIGN
+   ========================================================= */
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 992px) {
+
+    /* ---------- GENERAL ---------- */
+
+    .container,
+    .container-1,
+    .container-2,
+    .container-3,
+    .container-4 {
+        width: 92%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    /* ---------- NAVBAR ---------- */
+
+    .bg-img {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .m-icon {
+        width: 8%;
+    }
+
+    .width-65 {
+        width: 60%;
+    }
+
+    .width-15 {
+        width: 18%;
+    }
+
+    .p-top-1 {
+        padding-top: 2%;
+    }
+
+    .f-size-18 {
+        font-size: 15px;
+    }
+
+    .nav-button {
+        width: 100%;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+    /* ---------- HERO ---------- */
+
+    .div-title {
+        width: 65%;
+        padding-top: 18%;
+        font-size: 30px;
+    }
+
+    .div-p {
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .m-width-40 {
+        width: 25%;
+    }
+
+    .nav-button-1 {
+        width: 100%;
+        padding: 12px 8px;
+        font-size: 14px;
+    }
+
+    /* ---------- SHOP ---------- */
+
+    .container-1,
+    .container-2,
+    .container-3 {
+        padding: 3%;
+    }
+
+    .buttons-bar-1 {
+        width: 16%;
+        font-size: 16px;
+    }
+
+    .buttons-bar {
+        font-size: 16px;
+    }
+
+    .p-relative.width-35 {
+        width: 31%;
+    }
+
+    .h2-title {
+        font-size: 27px;
+    }
+
+    .h2-title-1 {
+        font-size: 24px;
+    }
+
+    .p-dis {
+        font-size: 14px;
+    }
+
+    .over-lay-button {
+        font-size: 14px;
+        padding: 4%;
+    }
+
+    /* ---------- SERVICES ---------- */
+
+    .bg-img-left,
+    .bg-img-left-1,
+    .bg-img-right,
+    .bg-img-right-1 {
+        height: 330px;
+    }
+
+    .h2-style {
+        font-size: 35px;
+    }
+
+    .h2-title-over-lay {
+        font-size: 35px;
+    }
+
+    .p-dis-1 {
+        font-size: 13px;
+    }
+
+    /* ---------- ABOUT ---------- */
+
+    .text-card {
+        width: 55%;
+        font-size: 17px;
+    }
+
+    .mini-img {
+        width: 75%;
+    }
+
+    /* ---------- TEAM ---------- */
+
+    .width-23 {
+        width: 23%;
+    }
+
+    .h2-name {
+        font-size: 17px;
+    }
+
+    .p-title {
+        font-size: 15px;
+    }
+
+    /* ---------- BLOG ---------- */
+
+    .text-card-1 {
+        width: 48%;
+        font-size: 16px;
+    }
+
+    .width-45 {
+        width: 48%;
+    }
+
+    .h2-title-2 {
+        font-size: 30px;
+    }
+
+    /* ---------- CONTACT ---------- */
+
+    .width-40 {
+        width: 42%;
+    }
+
+    .width-55 {
+        width: 53%;
+    }
+
+    .padding-10 {
+        padding: 10% 0 0 5%;
+    }
+
+    .footer-p {
+        font-size: 17px;
+    }
+
+    .footer-p-1 {
+        font-size: 14px;
+        width: 90%;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    /* ---------- GENERAL ---------- */
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .container,
+    .container-1,
+    .container-2,
+    .container-3,
+    .container-4 {
+        width: 92%;
+        border: none;
+    }
+
+    /* ---------- NAVBAR ---------- */
+
+    .bg-img {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav .j-between {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .m-icon {
+        width: 10%;
+    }
+
+    nav .width-15 {
+        width: auto;
+    }
+
+    nav .width-65 {
+        width: 100%;
+        order: 4;
+        display: none;
+        flex-direction: column;
+        gap: 18px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    /*
+       بنخلي الـnavbar links تظهر بشكل مرتب
+       بدل ما تختفي خالص.
+    */
+    nav .width-65 a {
+        display: block;
+        margin: 0 0 15px 0;
+        font-size: 16px;
+    }
+
+    .nav-button {
+        width: auto;
+        padding: 9px 18px;
+        font-size: 13px;
+    }
+
+    /* ---------- HERO ---------- */
+
+    .div-title {
+        width: 90%;
+        padding-top: 22%;
+        font-size: 28px;
+    }
+
+    .m-div-title {
+        font-size: 30px;
+        line-height: 1.25;
+        font-weight: 600;
+    }
+
+    .div-p {
+        width: 90%;
+        font-size: 14px;
+        line-height: 1.6;
+        font-weight: 500;
+    }
+
+    .m-width-40 {
+        width: 45%;
+    }
+
+    .nav-button-1 {
+        width: 100%;
+        padding: 12px 8px;
+        font-size: 14px;
+    }
+
+    /* ---------- SECTION HEADINGS ---------- */
+
+    .f-size-25 {
+        font-size: 21px;
+    }
+
+    .m-l-4 {
+        margin-left: 0;
+    }
+
+    .width-92 {
+        width: 100%;
+    }
+
+    /* ---------- SHOP ---------- */
+
+    .container-1 {
+        padding: 5% 2%;
+    }
+
+    .div-search-box {
+        display: none;
+    }
+
+    .container-1 > .d-flex:first-child {
+        align-items: center;
+    }
+
+    .feat-m {
+        font-size: 20px;
+    }
+
+    .justify-centre {
+        justify-content: center;
+    }
+
+    .buttons-bar-1,
+    .buttons-bar {
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .buttons-bar-1 {
+        width: auto;
+        padding: 10px 16px;
+    }
+
+    .buttons-bar {
+        padding: 10px 12px;
+    }
+
+    /*
+       Products: 2 columns
+    */
+    .container-1 .p-t-5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .container-1 .p-relative.width-35 {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .hover {
+        width: 100%;
+    }
+
+    .m-width-100 {
+        width: 100%;
+    }
+
+    .over-lay {
+        width: 100%;
+        height: 100%;
+    }
+
+    .h2-price {
+        font-size: 18px;
+    }
+
+    .h2-title {
+        font-size: 22px;
+    }
+
+    .h2-title-1 {
+        font-size: 20px;
+    }
+
+    .p-dis {
+        font-size: 13px;
+    }
+
+    .center-div {
+        padding: 15% 5%;
+    }
+
+    .over-lay-button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .width-30 {
+        width: 30%;
+    }
+
+    .width-55 {
+        width: 55%;
+    }
+
+    /* ---------- SERVICES ---------- */
+
+    .container-2 {
+        padding: 5% 2%;
+    }
+
+    .container-2 > .d-flex {
+        display: block;
+    }
+
+    .right-card {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .bg-img-left,
+    .bg-img-left-1,
+    .bg-img-right,
+    .bg-img-right-1 {
+        width: 48%;
+        height: 240px;
+        margin-bottom: 20px;
+    }
+
+    .bg-img-1 {
+        width: 100%;
+        height: 200px;
+        margin-top: 5px;
+    }
+
+    .h2-style {
+        font-size: 27px;
+    }
+
+    .h2-title-over-lay {
+        font-size: 25px;
+    }
+
+    .center-div-over-lay {
+        padding: 15px 10px;
+    }
+
+    .p-dis-1 {
+        font-size: 12px;
+        line-height: 1.4;
+        padding: 5px;
+    }
+
+    .m-l-30 {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .over-lay-button-1,
+    .over-lay-button {
+        font-size: 13px;
+    }
+
+    /* ---------- ABOUT ---------- */
+
+    .container-3 {
+        padding: 5% 2%;
+    }
+
+    .container-3 > .d-flex {
+        flex-direction: column;
+    }
+
+    .text-card {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .text-card p {
+        margin-bottom: 15px;
+    }
+
+    .mini-img {
+        width: 75%;
+        margin: 20px auto 0;
+        display: block;
+    }
+
+    .img-position {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* ---------- TEAM ---------- */
+
+    .container-6 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first {
+        order: 1;
+    }
+
+    .second {
+        order: 2;
+    }
+
+    .container-4 {
+        width: 92%;
+    }
+
+    .width-23 {
+        width: 48%;
+    }
+
+    .m-team {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .h2-name {
+        font-size: 18px;
+    }
+
+    .p-title {
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
+
+    /* ---------- BLOG ---------- */
+
+    .text-card-1 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .width-45 {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .img-card-1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .h2-title-2 {
+        width: 100%;
+        font-size: 25px;
+        padding-bottom: 5%;
+    }
+
+    .h2-title-3 {
+        width: 100%;
+        font-size: 20px;
+        padding-bottom: 3%;
+    }
+
+    .m-p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* ---------- CONTACT ---------- */
+
+    .m-padding {
+        padding: 8% 4%;
+    }
+
+    .container-4 .no-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-div {
+        width: 100%;
+    }
+
+    .form-div form {
+        width: 100%;
+    }
+
+    .form-div form > .d-flex {
+        gap: 15px;
+    }
+
+    .form-div form > .d-flex .width-49 {
+        width: 50%;
+    }
+
+    .width-55.m-width-100 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .width-50 {
+        width: 50%;
+    }
+
+    .padding-10,
+    .padding-10-1 {
+        padding: 25px 10px;
+    }
+
+    .h2-div {
+        font-size: 18px;
+    }
+
+    .h4-div {
+        font-size: 14px;
+    }
+
+    .h3-div {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .font-color {
+        font-size: 22px;
+    }
+
+    .send-message {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    /* ---------- FOOTER ---------- */
+
+    .footer-p {
+        font-size: 16px;
+    }
+
+    .footer-p-1 {
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .width-custom {
+        width: 100%;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    /* ---------- NAVBAR ---------- */
+
+    .m-icon {
+        width: 13%;
+    }
+
+    nav .width-15 {
+        width: auto;
+    }
+
+    nav .width-15 h3 {
+        font-size: 16px;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    /* ---------- HERO ---------- */
+
+    .div-title {
+        width: 95%;
+        padding-top: 28%;
+    }
+
+    .m-div-title {
+        font-size: 27px;
+    }
+
+    .div-p {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    .m-width-40 {
+        width: 50%;
+    }
+
+    .nav-button-1 {
+        font-size: 13px;
+    }
+
+    /* ---------- HEADINGS ---------- */
+
+    .f-size-25 {
+        font-size: 19px;
+    }
+
+    /* ---------- SHOP ---------- */
+
+    .container-1 .p-relative.width-35 {
+        width: 100%;
+    }
+
+    .buttons-bar-1,
+    .buttons-bar {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .h2-title {
+        font-size: 20px;
+    }
+
+    .h2-title-1 {
+        font-size: 18px;
+    }
+
+    .p-dis {
+        font-size: 12px;
+    }
+
+    /* ---------- SERVICES ---------- */
+
+    .bg-img-left,
+    .bg-img-left-1,
+    .bg-img-right,
+    .bg-img-right-1 {
+        width: 100%;
+        height: 230px;
+    }
+
+    .bg-img-1 {
+        height: 190px;
+    }
+
+    .h2-style {
+        font-size: 25px;
+    }
+
+    .h2-title-over-lay {
+        font-size: 23px;
+    }
+
+    .p-dis-1 {
+        font-size: 11px;
+    }
+
+    /* ---------- ABOUT ---------- */
+
+    .text-card {
+        font-size: 15px;
+    }
+
+    .mini-img {
+        width: 90%;
+    }
+
+    /* ---------- TEAM ---------- */
+
+    .width-23 {
+        width: 100%;
+    }
+
+    .m-team {
+        margin-bottom: 35px;
+    }
+
+    /* ---------- BLOG ---------- */
+
+    .h2-title-2 {
+        font-size: 23px;
+    }
+
+    .h2-title-3 {
+        font-size: 19px;
+    }
+
+    /* ---------- CONTACT ---------- */
+
+    .form-div form > .d-flex {
+        flex-direction: column;
+    }
+
+    .form-div form > .d-flex .width-49 {
+        width: 100%;
+    }
+
+    .width-50 {
+        width: 100%;
+    }
+
+    .padding-10,
+    .padding-10-1 {
+        padding: 20px 5px;
+    }
+
+    .h3-div {
+        font-size: 13px;
+    }
+}
